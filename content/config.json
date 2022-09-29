@@ -1,0 +1,52 @@
+{
+  "title": "Celine Mol",
+  "url": "https://celinemol.me",
+  "subtitle": "A fellow human. 👋 Software Engineer @ Beni, ✨ unlocking the magic of resale ✨.  Living in beautiful, sunny, Santa Barbara, CA.",
+  "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "UA-73379983-2",
+  "disqusShortname": "",
+  "postsLimit": 4,
+  "pathPrefix": "/",
+  "menu": [
+    {
+      "label": "Blog",
+      "path": "/"
+    },
+    {
+      "label": "Projects",
+      "path": "/projects"
+    },
+    {
+      "label": "About",
+      "path": "/pages/about"
+    },
+    {
+      "label": "Beni in the News",
+      "path": "/news"
+    }
+  ],
+  "author": {
+    "name": "Celine Mol",
+    "photo": "/photo.jpg",
+    "bio": "A fellow human. 👋 Software Engineer @ Beni, ✨ unlocking the magic of resale ✨. Living in beautiful, sunny, Santa Barbara, CA.",
+    "contacts": {
+      "rss": "",
+      "email": "mailto:celine@joinbeni.com",
+      "github": "celinemol",
+      "facebook": "",
+      "telegram": "",
+      "twitter": "celiinemol",
+      "linkedin": "celinemol",
+      "instagram": "celiineee",
+      "line": "",
+      "weibo": "",
+      "gitlab": "celine.beni",
+      "medium": "@celinemol",
+      "youtube": "",
+      "codepen": "",
+      "soundcloud": "",
+      "devto": "celinemol",
+      "stackoverflow": "https://stackoverflow.com/users/10687546/celine"
+    }
+  }
+}

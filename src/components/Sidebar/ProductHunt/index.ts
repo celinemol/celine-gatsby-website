@@ -1,0 +1,1 @@
+export { default as ProductHunt } from './ProductHunt'
