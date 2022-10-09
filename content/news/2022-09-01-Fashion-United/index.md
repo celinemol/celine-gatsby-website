@@ -3,7 +3,7 @@ title: Beni hopes to make secondhand shopping 'seamless'
 date: "2022-09-01"
 template: "news"
 draft: false
-slug: "/news/newly-launched-browser-extension-beni-hopes-to-make-secondhand-shopping-seamless"
+slug: "newly-launched-browser-extension-beni-hopes-to-make-secondhand-shopping-seamless"
 category: "News"
 tags:
   - "News"

@@ -157,22 +157,26 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   }
 
   // Create for Projects
-  for (let page = 0; page < total; page += 1) {
+  const projectPosts = await queries.projectPostsQuery(graphql);
+  const projectTotal = Math.ceil((projectPosts?.edges?.length ?? 0) / postsLimit);
+  for (let page = 0; page < projectTotal; page += 1) {
     createWithPagination({
       limit: postsLimit,
       template: constants.templates.projectsTemplate,
-      total,
+      total: projectTotal,
       page,
       path: constants.routes.projectsRoute,
     });
   }
 
   // Create for News
-  for (let page = 0; page < total; page += 1) {
+  const newsPosts = await queries.newsPostsQuery(graphql);
+  const newsTotal = Math.ceil((newsPosts?.edges?.length ?? 0) / postsLimit);
+  for (let page = 0; page < newsTotal; page += 1) {
     createWithPagination({
       limit: postsLimit,
       template: constants.templates.newsTemplate,
-      total,
+      total: newsTotal,
       page,
       path: constants.routes.newsRoute,
     });

@@ -3,7 +3,7 @@ title: An Investor's Guide to NFTs and E-Commerce
 date: "2022-09-26"
 template: "news"
 draft: false
-slug: "/news/an-investors-guide-to-nfts-and-e-commerce"
+slug: "an-investors-guide-to-nfts-and-e-commerce"
 category: "News"
 tags:
   - "News"

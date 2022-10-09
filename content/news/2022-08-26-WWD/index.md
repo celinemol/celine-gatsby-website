@@ -3,7 +3,7 @@ title: Beni Scourts Internet for Best Price, Alternatives for Resale Shoppers
 date: "2022-08-26"
 template: "news"
 draft: false
-slug: "/news/start-up-beni-best-price-alternatives-for-resale-shoppers-tech-trends-funding"
+slug: "start-up-beni-best-price-alternatives-for-resale-shoppers-tech-trends-funding"
 category: "News"
 tags:
   - "News"

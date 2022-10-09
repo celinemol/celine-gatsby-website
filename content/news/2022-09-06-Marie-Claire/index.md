@@ -3,7 +3,7 @@ title: The chrome extension just made secondhand shopping easier than ever
 date: "2022-09-06"
 template: "news"
 draft: false
-slug: "/news/beni-chrome-extension-795066"
+slug: "beni-chrome-extension-795066"
 category: "News"
 tags:
   - "News"

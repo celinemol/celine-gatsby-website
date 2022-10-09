@@ -3,7 +3,7 @@ title: Central Coast Python Meetup Co-Organizer
 date: "2022-02-09"
 template: "project"
 draft: false
-slug: "/projects/central-coast-python/"
+slug: "central-coast-python"
 category: "Meetup"
 tags:
   - "Central Coast Python"

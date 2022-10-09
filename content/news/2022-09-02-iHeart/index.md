@@ -3,7 +3,7 @@ title: The Trove Podcast, Resale Edit - Shiny is a Good Start but Can it Scale?
 date: "2022-09-02"
 template: "news"
 draft: false
-slug: "/news/the-trove-podcast-53"
+slug: "the-trove-podcast-53"
 category: "Podcast"
 tags:
   - "Podcast"

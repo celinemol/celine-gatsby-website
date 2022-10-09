@@ -3,7 +3,7 @@ title: Beni Browser Extension
 date: "2021-01-01"
 template: "project"
 draft: false
-slug: "/projects/beni/"
+slug: "beni-browser-extension"
 category: "Beni"
 tags:
   - "Beni"

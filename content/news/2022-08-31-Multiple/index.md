@@ -3,7 +3,7 @@ title: Resale Innovator, Beni, Launches to Make Secondhand Shopping Seamless
 date: "2022-08-31"
 template: "news"
 draft: false
-slug: "/news/resale-innovator-beni-launches-to-make-secondhand-shopping-seamless"
+slug: "resale-innovator-beni-launches-to-make-secondhand-shopping-seamless"
 category: "News"
 tags:
   - "News"

@@ -3,7 +3,7 @@ title: Secondhand Shopping Is Mainstream. Now What?
 date: "2022-09-07"
 template: "news"
 draft: false
-slug: "/news/secondhand-shopping-recommerce-inflation-trove-mercari-beni"
+slug: "secondhand-shopping-recommerce-inflation-trove-mercari-beni"
 category: "News"
 tags:
   - "News"

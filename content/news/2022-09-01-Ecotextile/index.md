@@ -3,7 +3,7 @@ title: Web plug-in streamlines secondhand shopping
 date: "2022-09-01"
 template: "news"
 draft: false
-slug: "/news/web-plug-in-streamlines-secondhand-shopping"
+slug: "web-plug-in-streamlines-secondhand-shopping"
 category: "News"
 tags:
   - "News"

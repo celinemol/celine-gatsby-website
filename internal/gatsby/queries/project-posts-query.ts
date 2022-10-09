@@ -2,18 +2,18 @@ import { CreatePagesArgs } from "gatsby";
 
 import * as types from "../types";
 
-export interface PostsQueryResult {
+export interface ProjectsPostsQueryResult {
   allMarkdownRemark: {
     edges?: Array<types.Edge>;
   };
 }
 
-const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
-  const result = await graphql<PostsQueryResult>(`
+const projectPostsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
+  const result = await graphql<ProjectsPostsQueryResult>(`
     {
       allMarkdownRemark(
         filter: { 
-          frontmatter: { template: { in: ["post"] }, draft: { ne: true } }
+          frontmatter: { template: { in: ["project"] }, draft: { ne: true } }
         }
       ) {
         edges {
@@ -30,4 +30,4 @@ const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   return result?.data?.allMarkdownRemark;
 };
 
-export default postsQuery;
+export default projectPostsQuery;
