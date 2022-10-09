@@ -44,6 +44,40 @@ exports[`CategoryTemplate renders correctly 1`] = `
           </li>
         </ul>
       </nav>
+      <div
+        style={
+          {
+            "marginBottom": "2em",
+          }
+        }
+      >
+        <div
+          style={
+            {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          Beni Featured on:
+        </div>
+        <a
+          href="https://www.producthunt.com/posts/youtaber?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-youtaber"
+          target="_blank"
+        >
+          <img
+            alt="YouTaber - Manage all your youtube tabs at one place! | Product Hunt Embed"
+            height="54"
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=105642&theme=dark"
+            style={
+              {
+                "height": "54px",
+                "width": "250px",
+              }
+            }
+            width="250"
+          />
+        </a>
+      </div>
       <div>
         <ul>
           <li>
@@ -153,9 +187,9 @@ exports[`CategoryTemplate renders correctly 1`] = `
           <div>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="August 31, 2016"
               >
-                September 2016
+                August 2016
               </time>
               <span />
               <span>
@@ -167,27 +201,18 @@ exports[`CategoryTemplate renders correctly 1`] = `
               </span>
             </div>
             <h2>
-              <a
-                href="/posts/perfecting-the-art-of-perfection"
-              >
-                Perfecting the Art of Perfection
-              </a>
+              Perfecting the Art of Perfection
             </h2>
             <p>
               An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
             </p>
-            <a
-              href="/posts/perfecting-the-art-of-perfection"
-            >
-              Read
-            </a>
           </div>
           <div>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="August 31, 2016"
               >
-                September 2016
+                August 2016
               </time>
               <span />
               <span>
@@ -199,20 +224,11 @@ exports[`CategoryTemplate renders correctly 1`] = `
               </span>
             </div>
             <h2>
-              <a
-                href="/posts/the-birth-of-movable-type"
-              >
-                Johannes Gutenberg: The Birth of Movable Type
-              </a>
+              Johannes Gutenberg: The Birth of Movable Type
             </h2>
             <p>
               German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.
             </p>
-            <a
-              href="/posts/the-birth-of-movable-type"
-            >
-              Read
-            </a>
           </div>
         </div>
         <div>
