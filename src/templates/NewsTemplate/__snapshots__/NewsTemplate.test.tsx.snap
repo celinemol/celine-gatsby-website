@@ -228,26 +228,6 @@ exports[`NewsTemplate renders correctly 1`] = `
             </p>
           </div>
         </div>
-        <div>
-          <div>
-            <a
-              className=""
-              href="/typography/page/1"
-              rel="prev"
-            >
-              ← PREV
-            </a>
-          </div>
-          <div>
-            <a
-              className=""
-              href="/typography/page/3"
-              rel="next"
-            >
-              → NEXT
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
