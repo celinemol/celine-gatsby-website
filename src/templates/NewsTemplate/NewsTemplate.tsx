@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 import { Feed } from "@/components/Feed";
 import { Layout } from "@/components/Layout";
 import { Page } from "@/components/Page";
-import { Pagination } from "@/components/Pagination";
+// import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
 import { useSiteMetadata } from "@/hooks";
 import { AllMarkdownRemark, PageContext } from "@/types";
@@ -17,28 +17,28 @@ interface Props {
   pageContext: PageContext;
 }
 
-const NewsTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
+const NewsTemplate: React.FC<Props> = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
-  const { pagination } = pageContext;
-  const { currentPage, hasNextPage, hasPrevPage, prevPagePath, nextPagePath } =
-    pagination;
+  // const { pagination } = pageContext;
+  // const { currentPage, hasNextPage, hasPrevPage, prevPagePath, nextPagePath } =
+  //   pagination;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle =
-    currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+  const pageTitle = `News - ${siteTitle}`;
+    // currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
-        <Pagination
+        {/* <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}
           hasPrevPage={hasPrevPage}
           hasNextPage={hasNextPage}
-        />
+        /> */}
       </Page>
     </Layout>
   );
