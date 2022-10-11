@@ -43,12 +43,12 @@ const NewsTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     </Layout>
   );
 };
-
+// TODO: Add pagination back in.
 export const query = graphql`
-  query NewsTemplate($limit: Int!, $offset: Int!) {
+  query NewsTemplate {
     allMarkdownRemark(
-      limit: $limit
-      skip: $offset
+      limit: 20
+      skip: 0
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "news" }, draft: { ne: true } } }
     ) {

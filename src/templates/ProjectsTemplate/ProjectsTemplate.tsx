@@ -43,12 +43,12 @@ const ProjectsTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     </Layout>
   );
 };
-
+// TODO: Add pagination back in.
 export const query = graphql`
-  query ProjectsTemplate($limit: Int!, $offset: Int!) {
+  query ProjectsTemplate {
     allMarkdownRemark(
-      limit: $limit
-      skip: $offset
+      limit: 20
+      skip: 0
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "project" }, draft: { ne: true } } }
     ) {

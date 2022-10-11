@@ -1,5 +1,5 @@
 ---
-title: The chrome extension just made secondhand shopping easier than ever
+title: This Chrome Extension Just Made Secondhand Shopping Easier Than Ever
 date: "2022-09-06"
 template: "news"
 draft: false

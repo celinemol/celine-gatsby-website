@@ -1,5 +1,5 @@
 ---
-title: Beni hopes to make secondhand shopping 'seamless'
+title: Beni Hopes to Make Secondhand Shopping 'Seamless'
 date: "2022-09-01"
 template: "news"
 draft: false

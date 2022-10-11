@@ -1,5 +1,5 @@
 ---
-title: Web plug-in streamlines secondhand shopping
+title: Web Plug-in Streamlines Secondhand Shopping
 date: "2022-09-01"
 template: "news"
 draft: false

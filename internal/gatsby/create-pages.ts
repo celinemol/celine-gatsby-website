@@ -1,4 +1,5 @@
 import { GatsbyNode } from "gatsby";
+import NewsTemplate from "src/templates/NewsTemplate/NewsTemplate";
 
 import * as constants from "./constants";
 import * as queries from "./queries";
@@ -145,7 +146,6 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
 
   const posts = await queries.postsQuery(graphql);
   const total = Math.ceil((posts?.edges?.length ?? 0) / postsLimit);
-
   for (let page = 0; page < total; page += 1) {
     createWithPagination({
       limit: postsLimit,
@@ -157,8 +157,9 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   }
 
   // Create for Projects
-  const projectPosts = await queries.projectPostsQuery(graphql);
-  const projectTotal = Math.ceil((projectPosts?.edges?.length ?? 0) / postsLimit);
+  // const projectPosts = await queries.projectPostsQuery(graphql);
+  // const projectTotal = Math.ceil((projectPosts?.edges?.length ?? 0) / postsLimit);
+  const projectTotal = 1;
   for (let page = 0; page < projectTotal; page += 1) {
     createWithPagination({
       limit: postsLimit,
@@ -170,8 +171,10 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   }
 
   // Create for News
-  const newsPosts = await queries.newsPostsQuery(graphql);
-  const newsTotal = Math.ceil((newsPosts?.edges?.length ?? 0) / postsLimit);
+  // const newsPosts = await queries.newsPostsQuery(graphql);
+  // TODO: Change 20 back to postsLimit once you have pagination figured out
+  // const newsTotal = Math.ceil((newsPosts?.edges?.length ?? 0) / postsLimit);
+  const newsTotal = 1;
   for (let page = 0; page < newsTotal; page += 1) {
     createWithPagination({
       limit: postsLimit,
