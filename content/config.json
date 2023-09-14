@@ -1,7 +1,7 @@
 {
-  "title": "Celine Mol",
-  "url": "https://celinemol.me",
-  "subtitle": "A fellow human. 👋 Software Engineer @ Beni, ✨ unlocking the magic of resale ✨.  Living in beautiful, sunny, Santa Barbara, CA.",
+  "title": "Celine Lightfoot",
+  "url": "https://celinelightfoot.com",
+  "subtitle": "A fellow human. 👋 Co-Founder, CTO @ Beni, making resale so accessible that buying new is no longer our default shopping behavior. 5+ years of building software stacks from the ground up and harnessing the power of AI to make substantial impacts for a healthy planet.  Living in beautiful, sunny, Santa Barbara, CA.",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -13,10 +13,6 @@
       "path": "/"
     },
     {
-      "label": "Projects",
-      "path": "/projects"
-    },
-    {
       "label": "About",
       "path": "/pages/about"
     },
@@ -26,9 +22,9 @@
     }
   ],
   "author": {
-    "name": "Celine Mol",
+    "name": "Celine Lightfoot",
     "photo": "/photo.jpg",
-    "bio": "A fellow human. 👋 Software Engineer @ Beni, ✨ unlocking the magic of resale ✨. Living in beautiful, sunny, Santa Barbara, CA.",
+    "bio": "A fellow human. 👋 Co-Founder, CTO @ Beni, making resale so accessible that buying new is no longer our default shopping behavior. 5+ years of building software stacks from the ground up and harnessing the power of AI to make substantial impacts for a healthy planet.  Living in beautiful, sunny, Santa Barbara, CA.",
     "contacts": {
       "rss": "",
       "email": "mailto:celine@joinbeni.com",
